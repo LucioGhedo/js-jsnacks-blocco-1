@@ -6,7 +6,7 @@ for(let i = 0; i < 6; i++) {
     userNumbers = prompt('Dammi un numero')
     if(userNumbers % 2 === 0) {
         // non faccio nulla
-    } else {
+    } else if (userNumbers % 2 != 0) {
         // se è dispari inseriscilo nell’array.
         emptyArray.push(userNumbers)
     }
