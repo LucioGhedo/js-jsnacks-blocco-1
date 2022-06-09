@@ -4,8 +4,9 @@ let userNumbers = 0;
 // Chiedi per 6 volte all’utente di inserire un numero,
 for(let i = 0; i < 6; i++) {
     userNumbers = prompt('Dammi un numero')
+    // seleziono i dispari
     if(userNumbers % 2 != 0) {
-        // se è dispari inseriscilo nell’array.
+        // inserisco numeri dispari nell array
         emptyArray.push(userNumbers)
     }
     
